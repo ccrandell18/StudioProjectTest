@@ -1,0 +1,55 @@
+{
+  "name": "Sciex Testing",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "Sciex_Testing",
+  "thingworxServer": "https://djaml3au.studio-trial.thingworx.io",
+  "viewTemplateFileName": "home-ar.json",
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "version": "1.32.1433",
+  "device": {
+    "name": "ipad",
+    "width": "768",
+    "height": "1024"
+  },
+  "mainNavigationMenuStyle": "noMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light",
+  "thumbnail": "Uploaded/SCIEX_LOGO.png"
+}
